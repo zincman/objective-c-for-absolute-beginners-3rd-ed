@@ -21,6 +21,6 @@
     NSString *favoriteGenre;
 }
 
--(NSArray *) listPurchaseHistory;
+- (NSArray *) listPurchaseHistory;
 
 @end
