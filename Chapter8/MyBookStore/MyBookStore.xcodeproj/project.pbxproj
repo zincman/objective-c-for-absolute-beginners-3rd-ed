@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767F26A41EC5EC4800678B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26A31EC5EC4800678B39 /* main.m */; };
+		767F26A71EC5EC4800678B39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26A61EC5EC4800678B39 /* AppDelegate.m */; };
+		767F26AD1EC5EC4900678B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767F26AB1EC5EC4900678B39 /* Main.storyboard */; };
+		767F26AF1EC5EC4900678B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767F26AE1EC5EC4900678B39 /* Assets.xcassets */; };
+		767F26B21EC5EC4900678B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767F26B01EC5EC4900678B39 /* LaunchScreen.storyboard */; };
+		767F26BB1EC5EDE900678B39 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26BA1EC5EDE900678B39 /* Book.m */; };
+		767F26BE1EC5EE3200678B39 /* Bookstore.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26BD1EC5EE3200678B39 /* Bookstore.m */; };
+		767F26C11EC6084000678B39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26C01EC6084000678B39 /* MainViewController.m */; };
+		767F26C41EC6A4D000678B39 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F26C31EC6A4D000678B39 /* BookDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		767F269F1EC5EC4800678B39 /* MyBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767F26A31EC5EC4800678B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		767F26A51EC5EC4800678B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		767F26A61EC5EC4800678B39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		767F26AC1EC5EC4900678B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767F26AE1EC5EC4900678B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767F26B11EC5EC4900678B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		767F26B31EC5EC4900678B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767F26B91EC5EDE900678B39 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		767F26BA1EC5EDE900678B39 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		767F26BC1EC5EE3200678B39 /* Bookstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookstore.h; sourceTree = "<group>"; };
+		767F26BD1EC5EE3200678B39 /* Bookstore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookstore.m; sourceTree = "<group>"; };
+		767F26BF1EC6084000678B39 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		767F26C01EC6084000678B39 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		767F26C21EC6A4D000678B39 /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		767F26C31EC6A4D000678B39 /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767F269C1EC5EC4800678B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767F26961EC5EC4800678B39 = {
+			isa = PBXGroup;
+			children = (
+				767F26A11EC5EC4800678B39 /* MyBookStore */,
+				767F26A01EC5EC4800678B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767F26A01EC5EC4800678B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767F269F1EC5EC4800678B39 /* MyBookStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767F26A11EC5EC4800678B39 /* MyBookStore */ = {
+			isa = PBXGroup;
+			children = (
+				767F26A51EC5EC4800678B39 /* AppDelegate.h */,
+				767F26A61EC5EC4800678B39 /* AppDelegate.m */,
+				767F26BF1EC6084000678B39 /* MainViewController.h */,
+				767F26C01EC6084000678B39 /* MainViewController.m */,
+				767F26C21EC6A4D000678B39 /* BookDetailViewController.h */,
+				767F26C31EC6A4D000678B39 /* BookDetailViewController.m */,
+				767F26AB1EC5EC4900678B39 /* Main.storyboard */,
+				767F26AE1EC5EC4900678B39 /* Assets.xcassets */,
+				767F26B01EC5EC4900678B39 /* LaunchScreen.storyboard */,
+				767F26B31EC5EC4900678B39 /* Info.plist */,
+				767F26A21EC5EC4800678B39 /* Supporting Files */,
+				767F26B91EC5EDE900678B39 /* Book.h */,
+				767F26BA1EC5EDE900678B39 /* Book.m */,
+				767F26BC1EC5EE3200678B39 /* Bookstore.h */,
+				767F26BD1EC5EE3200678B39 /* Bookstore.m */,
+			);
+			path = MyBookStore;
+			sourceTree = "<group>";
+		};
+		767F26A21EC5EC4800678B39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767F26A31EC5EC4800678B39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767F269E1EC5EC4800678B39 /* MyBookStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767F26B61EC5EC4900678B39 /* Build configuration list for PBXNativeTarget "MyBookStore" */;
+			buildPhases = (
+				767F269B1EC5EC4800678B39 /* Sources */,
+				767F269C1EC5EC4800678B39 /* Frameworks */,
+				767F269D1EC5EC4800678B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBookStore;
+			productName = MyBookStore;
+			productReference = 767F269F1EC5EC4800678B39 /* MyBookStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767F26971EC5EC4800678B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Derek Lu";
+				TargetAttributes = {
+					767F269E1EC5EC4800678B39 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ASJZC5V6P7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 767F269A1EC5EC4800678B39 /* Build configuration list for PBXProject "MyBookStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767F26961EC5EC4800678B39;
+			productRefGroup = 767F26A01EC5EC4800678B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767F269E1EC5EC4800678B39 /* MyBookStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767F269D1EC5EC4800678B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767F26B21EC5EC4900678B39 /* LaunchScreen.storyboard in Resources */,
+				767F26AF1EC5EC4900678B39 /* Assets.xcassets in Resources */,
+				767F26AD1EC5EC4900678B39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767F269B1EC5EC4800678B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767F26BB1EC5EDE900678B39 /* Book.m in Sources */,
+				767F26A71EC5EC4800678B39 /* AppDelegate.m in Sources */,
+				767F26C41EC6A4D000678B39 /* BookDetailViewController.m in Sources */,
+				767F26BE1EC5EE3200678B39 /* Bookstore.m in Sources */,
+				767F26C11EC6084000678B39 /* MainViewController.m in Sources */,
+				767F26A41EC5EC4800678B39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		767F26AB1EC5EC4900678B39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767F26AC1EC5EC4900678B39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767F26B01EC5EC4900678B39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767F26B11EC5EC4900678B39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767F26B41EC5EC4900678B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		767F26B51EC5EC4900678B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767F26B71EC5EC4900678B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASJZC5V6P7;
+				INFOPLIST_FILE = MyBookStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derek.MyBookStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767F26B81EC5EC4900678B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASJZC5V6P7;
+				INFOPLIST_FILE = MyBookStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.derek.MyBookStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767F269A1EC5EC4800678B39 /* Build configuration list for PBXProject "MyBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767F26B41EC5EC4900678B39 /* Debug */,
+				767F26B51EC5EC4900678B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767F26B61EC5EC4900678B39 /* Build configuration list for PBXNativeTarget "MyBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767F26B71EC5EC4900678B39 /* Debug */,
+				767F26B81EC5EC4900678B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767F26971EC5EC4800678B39 /* Project object */;
+}
